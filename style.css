@@ -6,17 +6,21 @@
 body{
     box-sizing: border-box;
     
+    background-color: #222;
+    
 }   
 .main{
    
 }
 .nav-bar{
     display: flex;
-    padding: 10px 30px 10px 10px;
+    padding: 10px 10px 10px 10px;
     justify-content: space-between;
-    width: 100%;
-    position: fixed;
     border: 2px solid black;
+    color:#222;
+    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
+    margin: 0 20px 0 20px;
+    border-radius: 10px;
 
    
 }
@@ -38,7 +42,9 @@ hr{
 }
 .li a{
     text-decoration: none;
-    color: black;
+    color:black;
+    font: size 1.1em;
+    font-weight: bold;
 }
 .arvin{
     color: black;
@@ -51,10 +57,20 @@ hr{
 }
 .body{
     padding-top: 150px;
-    padding: 150px 20px 0 20px;
-    padding-left: 90px;
+    padding: 100px 20px 20px 10px;
+    padding-left: 70px;
+    margin: 20px 20px 50px 20px;
+    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
+    border-radius: 20px;
+    border: 2px solid black;
 }
 .greetings{
+}
+.left-main{
+    border: 20px solid #222;
+    border-radius: 10px;
+    max-width: fit-content;
+    padding: 40px 300px 40px 20px;
 }
 .my-name {
     font-size: 4rem;
@@ -68,15 +84,14 @@ hr{
     border-radius: 5px;
     margin-bottom: 30px;
     background-color: black;
-    color: white;
+    color: rgb(234, 45, 98);
     border: none;
     font-size: 0.9rem;
     font-weight: bold;
 }
 .btn:hover{
-    background-color: #fff;
-    color: black;
     box-shadow:2px 0px 9px -1px rgba(0,0,0,0.65);
+    font-size: 1rem;
 
 }
 .img{
@@ -88,11 +103,12 @@ hr{
 }
 .stats{
     display: flex;
-    margin: 50px 35%;
+    margin: 30px 35%;
     padding: 10px 25px;
     justify-content: space-between;
     box-shadow:2px 0px 9px -1px rgba(0,0,0,0.65);
     border-radius: 40px;
+    border: 8px solid #222;
 }
 .block{
     display: flex;
@@ -108,10 +124,13 @@ hr{
 
 }
 .projects-grid{
-    padding-top: 70px;
+    padding-top: 50px;
     padding-left: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
+    border-radius: 30px;
+    margin: 20px 20px;
     
 }
 .project-container{
@@ -119,6 +138,8 @@ hr{
     box-shadow:2px 0px 9px -1px rgba(0,0,0,0.65);
     padding: 10px;
     width: fit-content;
+    background:#222;
+    border-radius: 10px;
 }
 .project-image{
     width: 270px;
@@ -128,26 +149,35 @@ hr{
     padding: 7px;
     font-size: 1.2rem;
     font-weight: bold;
+    color: #fff;
 }
 .link{
     text-decoration: none;
     color: black;
 }
 .certificate-grid{
-    padding: 100px;
+    padding: 80px;
+    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
+    border-radius: 30px;
+    margin: 20px;
 }
 .certificate-image{
     width: 500px;
     border: 2px solid black;
+    border-radius: 10px;
     /*box-shadow:2px 0px 9px -1px rgba(0,0,0,0.65);*/
+}
+.hr{
+    color: #222;
+    background: #222;
 }
 .frontend,.backend,.python{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 .certificate-container{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding-right:200px ;
 }
 .certificate-name{
@@ -164,18 +194,23 @@ hr{
        
     }
     .ol{
-        margin-left: 20px;
-        padding-left: 0;
+        margin-right:0px;
+      
 
     }
     .arvin{
-        margin-right: 40px;
+        margin-right: 60px;
     }
     .li{
         padding-left: 15px;
     }
     .body{
-        padding-left: 60px;
+        padding-left: 20px;
+        padding-top: 60px;
+    }
+    .left-main{
+        padding: 20px ;
+        max-width: max-content;
     }
     .stats{
         margin: 50px 30px;
@@ -183,12 +218,15 @@ hr{
     .projects-grid{
         display: block;
         padding-left: 35px;
+        padding-bottom: 20px;
+        padding-top: 0;
     }
     .project-container{
         margin-top:30px ;
+
     }
     .certificate-grid{
-        padding-top: 100px;
+        padding-top: 50px;
         padding-left: 20px;
     }
     .certificate-image{
@@ -199,7 +237,8 @@ hr{
     }
     .certificate-container{
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: ;
+        
     }
     .certificate-name{
         font-size: 1.4rem;
