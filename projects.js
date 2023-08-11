@@ -1,5 +1,11 @@
 const projects=[
     {
+        id:"10",
+        name:"Calculator",
+        image:"./calculator.png",
+        link:"https://arvinjoelv.github.io/Calculator/"
+    },
+    {
         id:"9",
         name:"Hotstar Clone",
         image:"./hotstar.png",
