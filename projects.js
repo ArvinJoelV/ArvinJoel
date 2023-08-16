@@ -1,9 +1,15 @@
 const projects=[
     {
         id:"10",
+<<<<<<< HEAD
         name:"Tic Tac Toe",
         image:"./rps.png",
         link:"https://arvinjoelv.github.io/TicTacToe/"
+=======
+        name:"Calculator",
+        image:"./calculator.png",
+        link:"https://arvinjoelv.github.io/Calculator/"
+>>>>>>> f78c8fab33d917de5a912ee08e93370d7551094a
     },
     {
         id:"9",
