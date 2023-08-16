@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #cbcbcb;
 }
 body{
     box-sizing: border-box;
+    background-image:url(./abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
     
     background-color: #222;
+    width: 100%;
     
 }   
 .main{
@@ -16,9 +19,9 @@ body{
     display: flex;
     padding: 10px 10px 10px 10px;
     justify-content: space-between;
-    border: 2px solid black;
-    color:#222;
-    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
+    border: 2px solid white;
+    color:white;
+    /*background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));*/
     margin: 0 20px 0 20px;
     border-radius: 10px;
 
@@ -33,7 +36,6 @@ hr{
 .ol{
     display: flex;
     padding-top: 5px;
-    width: 300px;
 }
 .li{
     text-decoration: none;
@@ -42,12 +44,12 @@ hr{
 }
 .li a{
     text-decoration: none;
-    color:black;
+    color:#e7e7e7;
     font: size 1.1em;
     font-weight: bold;
 }
 .arvin{
-    color: black;
+    color: #e7e7e7;
     text-decoration: none;
 }
 .current{
@@ -56,18 +58,16 @@ hr{
 
 }
 .body{
-    padding-top: 150px;
-    padding: 100px 20px 20px 10px;
-    padding-left: 70px;
+    padding-top: 10px;
+    padding: 10px 20px 20px 10px;
     margin: 20px 20px 50px 20px;
-    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
+    /*background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));*/
     border-radius: 20px;
-    border: 2px solid black;
 }
 .greetings{
 }
 .left-main{
-    border: 20px solid #222;
+    
     border-radius: 10px;
     max-width: fit-content;
     padding: 40px 300px 40px 20px;
@@ -84,7 +84,7 @@ hr{
     border-radius: 5px;
     margin-bottom: 30px;
     background-color: black;
-    color: rgb(234, 45, 98);
+    color:#e7e7e7;
     border: none;
     font-size: 0.9rem;
     font-weight: bold;
@@ -108,7 +108,7 @@ hr{
     justify-content: space-between;
     box-shadow:2px 0px 9px -1px rgba(0,0,0,0.65);
     border-radius: 40px;
-    border: 8px solid #222;
+    border: 5px solid black;
 }
 .block{
     display: flex;
@@ -128,9 +128,6 @@ hr{
     padding-left: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
-    border-radius: 20px;
-    border: 2px solid black;
     margin: 20px 20px;
     
 }
@@ -157,10 +154,7 @@ hr{
     color: black;
 }
 .certificate-grid{
-    padding: 80px;
-    background: linear-gradient(135deg,rgba(244, 5, 5, 0.879),rgba(69, 3, 252, 0.573));
-    border-radius: 20px;
-    border: 2px solid black;
+    padding: 60px;
     margin: 20px;
 }
 .certificate-image{
@@ -213,7 +207,6 @@ hr{
     }
     .left-main{
         padding: 10px ;
-        border: 10px solid #222;
         max-width: max-content;
     }
     .stats{
@@ -231,7 +224,7 @@ hr{
 
     }
     .certificate-grid{
-        padding-top: 50px;
+        padding-top: 25px;
         padding-bottom: 30px;
         padding-left: 10px;
         margin: 10px;
